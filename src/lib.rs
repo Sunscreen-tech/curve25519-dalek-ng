@@ -50,6 +50,7 @@ extern crate serde;
 
 // Internal macros. Must come first!
 #[macro_use]
+#[rustfmt::skip]
 pub(crate) mod macros;
 
 //------------------------------------------------------------------------

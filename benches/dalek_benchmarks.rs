@@ -1,4 +1,7 @@
 #![allow(non_snake_case)]
+
+// sunscreen allowances
+#![rustfmt::skip]
 #![allow(deprecated, unused, clippy::all)]
 
 extern crate rand;
