@@ -1,5 +1,6 @@
 #![allow(non_snake_case)]
 #![allow(deprecated)]
+#![allow(clippy::all)]
 
 extern crate rand;
 use rand::rngs::OsRng;
