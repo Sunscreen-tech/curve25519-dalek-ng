@@ -9,6 +9,7 @@
 // - Henry de Valence <hdevalence@hdevalence.ca>
 
 // sunscreen allowances
+#![cfg_attr(rustfmt, rustfmt_skip)]
 #![allow(clippy::all)]
 #![allow(rustdoc::broken_intra_doc_links)]
 #![allow(unused_imports, noop_method_call)]
