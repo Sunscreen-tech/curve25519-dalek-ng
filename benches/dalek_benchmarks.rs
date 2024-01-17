@@ -1,6 +1,5 @@
 #![allow(non_snake_case)]
-#![allow(deprecated)]
-#![allow(clippy::all)]
+#![allow(deprecated, unused, clippy::all)]
 
 extern crate rand;
 use rand::rngs::OsRng;
@@ -99,7 +98,6 @@ mod multiscalar_benches {
             .collect()
     }
 
-    #[allow(unused)]
     fn construct(n: usize) -> (Vec<Scalar>, Vec<EdwardsPoint>) {
         (construct_scalars(n), construct_points(n))
     }
